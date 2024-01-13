@@ -1,0 +1,2 @@
+m = float(input('Qual valor em metros?'))
+print('O valor em {:.2f} m.\n Em km temos {}.\n Em cm temos {}.\n Em mm temos {}.\n Em mc temos {}.\n Em nn temos {} '.format(m,(m/1000),(m*100),(m*1000),(m*1e+6),(m*1e+9)))
